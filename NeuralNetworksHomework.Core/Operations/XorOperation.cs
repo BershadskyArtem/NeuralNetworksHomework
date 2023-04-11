@@ -11,4 +11,10 @@ public class XorOperation : AbstractOperation
         ))
     {
     }
+
+    public override double Run(double[] input)
+    {
+        var notOp = new NotOperation();
+        return notOp.Run(new double[] { base.Run(input) });
+    }
 }

@@ -14,6 +14,18 @@ for (int x1 = 0; x1 < 2; x1++)
         Console.WriteLine();
     }
 }
+
+Console.WriteLine();
+var notOp = new NotOperation();
+Console.WriteLine("Not");
+for (int x1 = 0; x1 < 2; x1++)
+{
+    var notOpResult = notOp.Run(new double[] { x1 });
+    Console.Write($"{x1} | {notOpResult}");
+    Console.WriteLine();
+}
+
+
 Console.WriteLine();
 Console.WriteLine("Xor");
 var xorOp = new XorOperation();
@@ -28,6 +40,18 @@ for (int x1 = 0; x1 < 2; x1++)
     }
 }
 
+
+for (int i = 0; i < 1000; i++)
+{
+    int i1 = Random.Shared.Next(0,2) ;
+    int i2 = Random.Shared.Next(0,2);
+    var xorOpResult = xorOp.Run(new double[] { i1, i2 });
+    Console.WriteLine($"{i1} | {i2} | {xorOpResult}");
+}
+
+
+
+
 Console.WriteLine();
 var andOp = new AndOperation();
 Console.WriteLine("And");
@@ -40,14 +64,4 @@ for (int x1 = 0; x1 < 2; x1++)
         Console.Write($"{x1} | {x2} | {andOpResult}");
         Console.WriteLine();
     }
-}
-
-Console.WriteLine();
-var notOp = new NotOperation();
-Console.WriteLine("Not");
-for (int x1 = 0; x1 < 2; x1++)
-{
-    var notOpResult = notOp.Run(new double[] { x1 });
-    Console.Write($"{x1} | {notOpResult}");
-    Console.WriteLine();
 }

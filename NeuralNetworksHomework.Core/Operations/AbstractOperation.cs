@@ -9,7 +9,7 @@ public abstract class AbstractOperation
         _neuron = neuron;
     }
 
-    public double Run(double[] input) => _neuron.Run(input);
+    public virtual double Run(double[] input) => _neuron.Run(input);
 
 
 }

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworksHomework.Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworksHomework.Core", "NeuralNetworksHomework.Core\NeuralNetworksHomework.Core.csproj", "{ABF6E2D0-7F0A-41C4-B53A-B0A0C9188B23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworksHomework.Tests", "NeuralNetworksHomework.Tests\NeuralNetworksHomework.Tests.csproj", "{D9C78B12-22B3-4075-8563-A2F396CF564D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ABF6E2D0-7F0A-41C4-B53A-B0A0C9188B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABF6E2D0-7F0A-41C4-B53A-B0A0C9188B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABF6E2D0-7F0A-41C4-B53A-B0A0C9188B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C78B12-22B3-4075-8563-A2F396CF564D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C78B12-22B3-4075-8563-A2F396CF564D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C78B12-22B3-4075-8563-A2F396CF564D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C78B12-22B3-4075-8563-A2F396CF564D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
